@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.paradox.trainningapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/appicon"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+        <activity android:name=".LoginStudent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".RegisterStudent">
+        </activity>
+        <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".LoginAdmin">
+        </activity>
+        <activity android:name=".registerSchool">
+        </activity>
+        <activity android:name=".homeAdmin">
+        </activity>
+        <activity android:name=".homeStudent">
+        </activity>
+        <activity android:name=".studentShowActivity">
+        </activity>
+        <activity android:name=".PartnershipShowActivity">
+        </activity>
+        <activity android:name=".RegisterPartnershipActivity">
+        </activity>
+        <activity android:name=".RegisterOrganizationActivity">
+
+        </activity>
+    </application>
+
+</manifest>

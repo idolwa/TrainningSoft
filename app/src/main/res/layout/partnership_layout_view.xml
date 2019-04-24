@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                            android:orientation="vertical"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="200dp">
+    <LinearLayout
+
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="119dp">
+        <LinearLayout
+                android:paddingLeft="10dp"
+                android:orientation="vertical"
+                android:layout_width="190dp"
+                android:layout_height="118dp">
+            <TextView
+                    android:textAlignment="center"
+                    android:text="School"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/txtchoolId"
+                    android:layout_marginTop="2dp"/>
+            <TextView
+                    android:textAlignment="center"
+                    android:text="Organisation"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1"
+                    android:id="@+id/txtorganizationId"/>
+            <TextView
+                    android:text="Start Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1.5"
+                    android:id="@+id/txtstartdateId"/>
+            <TextView
+                    android:text="End Date"
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_weight="1.5"
+                    android:id="@+id/txtenddateId"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="118dp">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="116dp">
+                <TextView
+
+                        android:text="0"
+                        android:textSize="30sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5"
+                        android:id="@+id/txtnumbersId"/>
+                <Button
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:text="Subcrib"
+                        android:layout_marginHorizontal="15dp"
+                        android:id="@+id/btn_registered"
+
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginVertical="5dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="119dp"
+            android:layout_width="match_parent"
+                  android:layout_height="80dp">
+        <EditText
+                android:id="@+id/subject"
+                android:hint="Your Subject Here..."
+                android:layout_width="200dp"
+                android:layout_height="78dp"/>
+        <EditText
+                android:id="@+id/idId"
+
+                android:text="0"
+                android:layout_width="30dp"
+                android:layout_height="78dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
